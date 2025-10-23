@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Realode" version="2.0.3">
+<ruleset name="Realode" version="2.0.4">
 	<description>Custom coding standard for Realode packages based on WordPress VIP standards with small tweaks</description>
 
 	<!-- Exclude vendor directory -->
