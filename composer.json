@@ -1,0 +1,25 @@
+{
+    "name": "realode/wpvip-go-cs",
+    "description": "WordPress VIP Go Coding Standards for Realode packages",
+    "type": "phpcodesniffer-standard",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+        "name": "Realode",
+        "email": "info@realode.co",
+        "homepage": "https://realode.co",
+        "role": "Company"
+        }
+    ],
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "squizlabs/php_codesniffer": "^3.10",
+        "wp-coding-standards/wpcs": "^3.0",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
