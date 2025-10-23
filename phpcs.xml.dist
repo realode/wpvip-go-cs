@@ -1,9 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Realode" version="2.0.0">
+<ruleset name="Realode" version="2.0.1">
 	<description>Custom coding standard for Realode packages based on WordPress VIP standards with small tweaks</description>
-
-	<!-- What to scan -->
-	<file>./src</file>
 
 	<!-- Exclude vendor directory -->
 	<exclude-pattern>vendor/*</exclude-pattern>
@@ -34,7 +31,7 @@
 		<exclude name="WordPressVIPMinimum.JS.StrippingTags"/>
 		<exclude name="WordPressVIPMinimum.JS.StringConcat"/>
 		<exclude name="WordPressVIPMinimum.JS.HTMLExecutingFunctions"/>
-	</rule>    
+	</rule>
 
 	<!-- Enforce short array syntax -->
 	<rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
