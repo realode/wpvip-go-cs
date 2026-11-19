@@ -12,10 +12,10 @@
         }
     ],
     "require": {
-        "automattic/vipwpcs": "^3.0",
-        "dealerdirect/phpcodesniffer-composer-installer": "^1.1",
+        "automattic/vipwpcs": "^3.1",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.2",
         "phpcompatibility/phpcompatibility-wp": "^2.1",
-        "wp-coding-standards/wpcs": "^3.2"
+        "wp-coding-standards/wpcs": "^3.4"
     },
     "config": {
         "allow-plugins": {
